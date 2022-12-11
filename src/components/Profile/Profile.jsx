@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
-import css from '../Profile/Profile.module.css'
+import css from '../Profile/Profile.module.css';
+import { TiLocation } from 'react-icons/ti';
 
 export const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
@@ -12,7 +13,7 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
         />
         <p className={css.username}>{username}</p>
         <p className={css.tag}>@{tag}</p>
-        <p className={css.tag}>{location}</p>
+        <p className={css.tag}><TiLocation className={css.icon}/>{location}</p>
       </div>
 
       <ul className={css.stats}>
