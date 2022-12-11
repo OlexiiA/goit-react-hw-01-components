@@ -1,0 +1,39 @@
+.statistics {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.2s;
+    width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.statistics:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.title {
+    margin: 30px auto;
+}
+
+.stat__list {
+    display: flex;
+}
+
+.stat__list > li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 33.3%;
+    padding: 20px 0;
+}
+
+.label {
+    color:azure;
+    margin-bottom: 5px;  
+}
+
+.percentage {
+    color: azure;
+    font-weight: bold;
+}
