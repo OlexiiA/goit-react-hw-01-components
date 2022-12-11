@@ -12,7 +12,9 @@
 }
 
 .transactionHistory:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 77px -13px rgba(0,0,0,1);
+-webkit-box-shadow: 0px 0px 77px -13px rgba(0,0,0,1);
+-moz-box-shadow: 0px 0px 77px -13px rgba(0,0,0,1);
 }
 
 .title {
